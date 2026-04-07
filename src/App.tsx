@@ -24,7 +24,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/gurukripa_realty">
         <ScrollToTop />
         <Navbar />
         <main className="pb-14 lg:pb-0">
