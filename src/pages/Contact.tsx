@@ -89,7 +89,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <div className="text-sm text-muted-foreground">Office</div>
-                        <div className="font-semibold text-primary">Gurukripa Realty, 6-7 Shukla Market, Chota Bangarda Rd, MR-5, Near Indial Oil Petrol pump, Indore, Madhya Pradesh</div>
+                        <div className="font-semibold text-primary">Gurukripa Realty, 6-7 Shukla Market, Chota Bangarda Rd, MR-5, Near Indian Oil Petrol pump, Indore, Madhya Pradesh</div>
                       </div>
                     </div>
                     <a href="https://wa.me/919425050828" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 glass-card rounded-xl p-4 hover-lift">
