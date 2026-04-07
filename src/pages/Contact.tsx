@@ -107,7 +107,7 @@ const Contact = () => {
                 <div className="glass-card rounded-2xl overflow-hidden">
                   <iframe
                     title="Gurukripa Realty Indore Location"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.5!2d75.8577!3d22.7196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fd0a7a6ef90d%3A0x5e34e6e6b6ef1e0!2sKalani%20Nagar%20Square%2C%20Indore%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1839.743444256685!2d75.81024259328842!3d22.747305458159424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3963036cbebd84d1%3A0x547bf3099fe0fa75!2sGurukripa%20realty!5e0!3m2!1sen!2sin!4v1775562513626!5m2!1sen!2sin"
                     width="100%"
                     height="250"
                     style={{ border: 0 }}
