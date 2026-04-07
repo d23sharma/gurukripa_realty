@@ -33,11 +33,11 @@ const Footer = () => (
         <div>
           <h4 className="font-display font-semibold text-gold mb-4">Contact</h4>
           <div className="space-y-3 text-sm">
-            <a href="tel:+918408811234" className="flex items-center gap-2 hover:text-gold transition-colors">
-              <Phone className="w-4 h-4 text-gold" /> +91 84088 11234
+            <a href="tel:+919425050828" className="flex items-center gap-2 hover:text-gold transition-colors">
+              <Phone className="w-4 h-4 text-gold" /> +91 94250 50828
             </a>
-            <a href="mailto:info@gurukripa.com" className="flex items-center gap-2 hover:text-gold transition-colors">
-              <Mail className="w-4 h-4 text-gold" /> info@gurukripa.com
+            <a href="mailto:nitesh@gurukripa.com" className="flex items-center gap-2 hover:text-gold transition-colors">
+              <Mail className="w-4 h-4 text-gold" /> nitesh@gurukripa.com
             </a>
             <div className="flex items-start gap-2">
               <MapPin className="w-4 h-4 text-gold mt-0.5" /> Kalani Nagar Square, Indore, MP

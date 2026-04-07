@@ -26,7 +26,7 @@ const Contact = () => {
       return;
     }
     const waMessage = `Hi, I'm ${form.name}. ${form.message ? `Message: ${form.message}` : ""} Phone: ${form.phone}`;
-    const waUrl = `https://wa.me/918408811234?text=${encodeURIComponent(waMessage)}`;
+    const waUrl = `https://wa.me/919425050828?text=${encodeURIComponent(waMessage)}`;
 
     toast.success("Message sent! Redirecting to WhatsApp...");
     setForm({ name: "", phone: "", message: "" });
@@ -65,22 +65,22 @@ const Contact = () => {
                 <div>
                   <h3 className="text-xl font-display font-semibold text-primary mb-6">Contact Information</h3>
                   <div className="space-y-4">
-                    <a href="tel:+918408811234" className="flex items-center gap-4 glass-card rounded-xl p-4 hover-lift">
+                    <a href="tel:+919425050828" className="flex items-center gap-4 glass-card rounded-xl p-4 hover-lift">
                       <div className="w-12 h-12 rounded-xl gold-gradient flex items-center justify-center flex-shrink-0">
                         <Phone className="w-5 h-5 text-primary" />
                       </div>
                       <div>
                         <div className="text-sm text-muted-foreground">Phone</div>
-                        <div className="font-semibold text-primary">+91 84088 11234</div>
+                        <div className="font-semibold text-primary">+91 94250 50828</div>
                       </div>
                     </a>
-                    <a href="mailto:info@gurukripa.com" className="flex items-center gap-4 glass-card rounded-xl p-4 hover-lift">
+                    <a href="mailto:nitesh@gurukripa.com" className="flex items-center gap-4 glass-card rounded-xl p-4 hover-lift">
                       <div className="w-12 h-12 rounded-xl gold-gradient flex items-center justify-center flex-shrink-0">
                         <Mail className="w-5 h-5 text-primary" />
                       </div>
                       <div>
                         <div className="text-sm text-muted-foreground">Email</div>
-                        <div className="font-semibold text-primary">info@gurukripa.com</div>
+                        <div className="font-semibold text-primary">nitesh@gurukripa.com</div>
                       </div>
                     </a>
                     <div className="flex items-center gap-4 glass-card rounded-xl p-4">
@@ -89,10 +89,10 @@ const Contact = () => {
                       </div>
                       <div>
                         <div className="text-sm text-muted-foreground">Office</div>
-                        <div className="font-semibold text-primary">Kalani Nagar Square, Indore, Madhya Pradesh</div>
+                        <div className="font-semibold text-primary">Gurukripa Realty, 6-7 Shukla Market, Chota Bangarda Rd, MR-5, Near Indial Oil Petrol pump, Indore, Madhya Pradesh</div>
                       </div>
                     </div>
-                    <a href="https://wa.me/918408811234" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 glass-card rounded-xl p-4 hover-lift">
+                    <a href="https://wa.me/919425050828" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 glass-card rounded-xl p-4 hover-lift">
                       <div className="w-12 h-12 rounded-xl bg-green-500 flex items-center justify-center flex-shrink-0">
                         <MessageCircle className="w-5 h-5 text-card" />
                       </div>
@@ -106,7 +106,7 @@ const Contact = () => {
 
                 <div className="glass-card rounded-2xl overflow-hidden">
                   <iframe
-                    title="Gurukripa Realty Bhopal Location"
+                    title="Gurukripa Realty Indore Location"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.5!2d75.8577!3d22.7196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fd0a7a6ef90d%3A0x5e34e6e6b6ef1e0!2sKalani%20Nagar%20Square%2C%20Indore%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
                     width="100%"
                     height="250"

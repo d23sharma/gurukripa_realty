@@ -24,7 +24,7 @@ const LeadForm = ({ variant = "hero" }: { variant?: "hero" | "section" }) => {
     }
 
     const message = `Hi, I'm ${form.name}. I'm interested in: ${form.requirement}.${form.details ? ` Details: ${form.details}` : ""} Phone: ${form.phone}`;
-    const waUrl = `https://wa.me/918408811234?text=${encodeURIComponent(message)}`;
+    const waUrl = `https://wa.me/919425050828?text=${encodeURIComponent(message)}`;
 
     toast.success("Thank you! Redirecting to WhatsApp...");
     setForm({ name: "", phone: "", requirement: "", details: "" });
@@ -37,7 +37,7 @@ const LeadForm = ({ variant = "hero" }: { variant?: "hero" | "section" }) => {
   const isHero = variant === "hero";
 
   return (
-    <form onSubmit={handleSubmit} className={`space-y-3 ${isHero ? "max-w-sm" : "max-w-md mx-auto"}`}>
+    <form onSubmit={handleSubmit} style={{margin: 'auto'}} className={`space-y-3 ${isHero ? "max-w-sm" : "max-w-md mx-auto"}`}>
       <Input
         placeholder="Your Name"
         value={form.name}

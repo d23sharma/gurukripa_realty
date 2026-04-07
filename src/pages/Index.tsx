@@ -33,7 +33,7 @@ const services = [
 
 const whyUs = [
   "Transparent pricing with no hidden costs",
-  "Deep local expertise in Bhopal real estate",
+  "Deep local expertise in Indore real estate",
   "End-to-end support from consultation to handover",
   "Premium quality construction materials",
   "On-time project delivery guarantee",
@@ -41,15 +41,15 @@ const whyUs = [
 ];
 
 const testimonials = [
-  { name: "Rajesh Sharma", text: "Gurukripa Realty made our dream home a reality. Their transparency and quality is unmatched.", role: "Homeowner, Bhopal" },
+  { name: "Rajesh Sharma", text: "Gurukripa Realty made our dream home a reality. Their transparency and quality is unmatched.", role: "Homeowner, Indore" },
   { name: "Priya Verma", text: "We found our perfect property within a week. The team's dedication is incredible.", role: "Property Buyer" },
   { name: "Amit Patel", text: "Professional service from start to finish. Highly recommend for anyone looking to build or buy.", role: "Villa Owner" },
 ];
 
 const featuredListings = [
-  { img: property1, title: "Modern 3BHK Villa", location: "Hoshangabad Road, Bhopal", price: "₹85 Lakh", tag: "Premium" },
-  { img: property2, title: "Luxury Sea-View Apartment", location: "E-8 Extension, Bhopal", price: "₹1.2 Cr", tag: "Verified" },
-  { img: property3, title: "Spacious 4BHK Flat", location: "Kolar Road, Bhopal", price: "₹65 Lakh", tag: "New" },
+  { img: property1, title: "Modern 3BHK Villa", location: "Hoshangabad Road, Indore", price: "₹85 Lakh", tag: "Premium" },
+  { img: property2, title: "Luxury Sea-View Apartment", location: "E-8 Extension, Indore", price: "₹1.2 Cr", tag: "Verified" },
+  { img: property3, title: "Spacious 4BHK Flat", location: "Kolar Road, Indore", price: "₹65 Lakh", tag: "New" },
 ];
 
 const steps = [
@@ -271,7 +271,7 @@ const Index = () => {
             {steps.map((s, i) => (
               <AnimatedSection key={i}>
                 <div className="text-center">
-                  <div className="text-4xl font-display font-bold text-gold/30 mb-4">{s.num}</div>
+                  <div className="text-4xl font-display font-bold text-gold/90 mb-4">{s.num}</div>
                   <h3 className="text-lg font-display font-semibold text-primary mb-2">{s.title}</h3>
                   <p className="text-sm text-muted-foreground">{s.desc}</p>
                 </div>
@@ -293,7 +293,7 @@ const Index = () => {
               Ready to Build Your Dream Home?
             </h2>
             <p className="text-card/70 max-w-xl mx-auto mb-4">
-              Limited premium properties available. Don't miss out on the best deals in Bhopal.
+              Limited premium properties available. Don't miss out on the best deals in Indore.
             </p>
             <p className="text-gold text-sm font-medium mb-8">
               ⚡ Book a free consultation today and get a personalized property report
@@ -304,7 +304,7 @@ const Index = () => {
                   Get Free Consultation
                 </Button>
               </Link>
-              <a href="https://wa.me/918408811234" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/919425050828" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" variant="outline" className="border-green-500 text-green-400 hover:bg-green-500/10 text-base px-10">
                   Chat on WhatsApp
                 </Button>

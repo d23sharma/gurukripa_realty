@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/logo/logo1.png";
 
 const navItems = [
   { label: "Home", path: "/" },
@@ -33,13 +34,13 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          <Link to="/" className="flex items-center gap-2">
-            <span className="text-2xl font-display font-bold text-gold">
-              Gurukripa
-            </span>
-            <span className="text-sm font-body text-gold-light hidden sm:block">
-              Realty Pvt. Ltd.
-            </span>
+          {/* Logo */}
+          <Link to="/" className="flex items-center gap-3">
+            <img
+              src={logo}
+              alt="Gurukripa Realty Logo"
+              className="h-20 w-auto object-contain"
+            />
           </Link>
 
           <div className="hidden lg:flex items-center gap-8">
@@ -59,9 +60,9 @@ const Navbar = () => {
           </div>
 
           <div className="hidden lg:flex items-center gap-4">
-            <a href="tel:+918408811234" className="flex items-center gap-2 text-gold-light text-sm">
+            <a href="tel:+919425050828" className="flex items-center gap-2 text-gold-light text-sm">
               <Phone className="w-4 h-4" />
-              +91 84088 11234
+              +91 94250 50828
             </a>
             <Link to="/contact">
               <Button className="gold-gradient text-primary font-semibold hover:opacity-90 transition-opacity">

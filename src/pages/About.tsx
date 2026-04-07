@@ -36,9 +36,9 @@ const About = () => (
           <AnimatedSection>
             <h2 className="text-3xl font-display font-bold text-primary mb-6">Our Story</h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
-              <p>Founded in 2016 in Bhopal, Gurukripa Realty Pvt. Ltd. started with a simple vision — to make quality real estate accessible to every family. What began as a small property dealing firm has grown into a comprehensive real estate company offering construction, buying, and selling services.</p>
+              <p>Founded in 2016 in Indore, Gurukripa Realty Pvt. Ltd. started with a simple vision — to make quality real estate accessible to every family. What began as a small property dealing firm has grown into a comprehensive real estate company offering construction, buying, and selling services.</p>
               <p>Over the years, we have delivered 100+ homes and helped hundreds of families find their perfect property. Our success is built on a foundation of transparency, quality, and unwavering commitment to client satisfaction.</p>
-              <p>Today, Gurukripa Realty is recognized as one of Bhopal's most trusted names in real estate, known for premium construction quality and ethical business practices.</p>
+              <p>Today, Gurukripa Realty is recognized as one of Indore's most trusted names in real estate, known for premium construction quality and ethical business practices.</p>
             </div>
           </AnimatedSection>
         </div>
@@ -72,7 +72,7 @@ const About = () => (
           <SectionHeading title="Why Families Trust Us" />
         </AnimatedSection>
         <div className="max-w-2xl mx-auto space-y-4">
-          {["Over 100 homes successfully delivered", "8+ years of trusted service", "Complete transparency in pricing and process", "Dedicated post-sale support", "Strong local expertise in Bhopal real estate", "End-to-end project management"].map((item, i) => (
+          {["Over 100 homes successfully delivered", "8+ years of trusted service", "Complete transparency in pricing and process", "Dedicated post-sale support", "Strong local expertise in Indore real estate", "End-to-end project management"].map((item, i) => (
             <AnimatedSection key={i}>
               <div className="flex items-center gap-3 glass-card rounded-xl p-4">
                 <CheckCircle className="w-5 h-5 text-gold flex-shrink-0" />
