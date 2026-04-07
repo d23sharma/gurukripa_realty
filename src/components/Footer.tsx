@@ -40,7 +40,7 @@ const Footer = () => (
               <Mail className="w-4 h-4 text-gold" /> nitesh@gurukripa.com
             </a>
             <div className="flex items-start gap-2">
-              <MapPin className="w-4 h-4 text-gold mt-0.5" /> Kalani Nagar Square, Indore, MP
+              <MapPin className="w-4 h-4 text-gold mt-0.5" /> 6-7 Shukla Market, Chota Bangarda Rd, Indore, MP
             </div>
           </div>
         </div>
